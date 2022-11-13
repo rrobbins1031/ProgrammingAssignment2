@@ -27,5 +27,5 @@ cacheSolve <- function (x, ...){
         data <- x$get()
         inv <- solve(data, ...)
         x$setinv(inv)
-        m=inv ## Returns a matrix being the inverse of 'x'
+        inv ## Returns a matrix being the inverse of 'x'
 }
